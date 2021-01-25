@@ -1,15 +1,16 @@
 import React from 'react'
 
 class Main extends React.Component {
-  state = {
-    style: {
-      backgroundColor: 'black'
-    }
-  }
-
   render () {
     return (
       <div className='main'>
+        <div className='main-header'>
+          <span className='title'>Navy Flash Cards</span>
+          <span className='button-container'>
+            <span>Te Kaha</span>
+            <span>History</span>
+          </span>
+        </div>
       </div>
     )
   }

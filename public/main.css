@@ -5,8 +5,51 @@
 .main {
   height: 100vh;
   width: 100vw;
-  background-image: url('https://cdn.wallpapersafari.com/70/82/T7ZVmh.png');
+  background-image: url('https://www.seaforces.org/marint/New-Zealand-Navy/F-77_DAT/F77-Te-Kaha-34.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+.main-header {
+  height: 12vh;
+  width: 100vw;
+}
+
+.title {
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+  position: relative;
+  left: 2vw;
+  top: 2vh;
+  width: 20vw;
+}
+
+.button-container {
+  position: relative;
+  left: 10vw;
+}
+
+.button-container span {
+  position: relative;
+  margin-right: 2vw;
+  font-family: 'Hind', sans-serif;
+  font-size: 25px;
+  top: 1vh;
+  transition: 0.3s;
+}
+
+.button-container span:hover {
+  position: relative;
+  margin-right: 2vw;
+  font-family: 'Hind', sans-serif;
+  font-size: 25px;
+  top: 1vh;
+  padding: 1vh;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
