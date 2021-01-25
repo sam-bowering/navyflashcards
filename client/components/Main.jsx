@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Body extends React.Component {
+class Main extends React.Component {
   state = {
     style: {
       backgroundColor: 'black'
@@ -9,11 +9,10 @@ class Body extends React.Component {
 
   render () {
     return (
-      <div className='body'>
-
+      <div className='main'>
       </div>
     )
   }
 }
 
-export default Body
+export default Main
